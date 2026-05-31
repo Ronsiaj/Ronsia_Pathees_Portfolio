@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="hero-image-wrapper delay-300 animate-fade-up">
           <div className="glow-effect"></div>
           <img
-            src="/avatar.png"
+            src="/avatar.jpeg"
             alt="John Doe"
             className="hero-image"
           />
