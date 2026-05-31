@@ -4,8 +4,8 @@ import './Certificates.css';
 import nptel from "../assets/images/nptel.jpg";
 import bss from "../assets/images/bss.jpg";
 import mysql from "../assets/images/mysql.png";
-import python from "../assets/images/python data science.jpg";
-import udemy from "../assets/images/web development.jpg";
+import python from "../assets/images/python_data_science.jpg";
+import udemy from "../assets/images/web_development.jpg";
 const Certificates = () => {
   const certificates = [
     {
