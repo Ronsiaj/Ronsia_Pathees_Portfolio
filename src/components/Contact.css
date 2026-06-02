@@ -102,10 +102,17 @@
 @media (max-width: 576px) {
   .contact-item {
     padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .contact-info {
+    min-width: 0; /* allows flex items to shrink below their content size */
   }
   
   .contact-value {
     font-size: 1rem;
+    word-break: break-all;
+    overflow-wrap: anywhere;
   }
 }
 

@@ -144,11 +144,12 @@
 
 @media (max-width: 576px) {
   .hero-title {
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 7vw, 2.2rem);
   }
   
   .hero-title .text-gradient {
-    white-space: normal;
+    display: block;
+    margin-top: 0.2rem;
   }
   
   .hero-cta {
