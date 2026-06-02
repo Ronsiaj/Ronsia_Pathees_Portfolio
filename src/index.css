@@ -167,3 +167,35 @@ section {
 .delay-100 { animation-delay: 100ms; }
 .delay-200 { animation-delay: 200ms; }
 .delay-300 { animation-delay: 300ms; }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+    section {
+        padding: 4rem 0;
+    }
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .glass-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+    .section-title {
+        font-size: 1.7rem;
+    }
+    .glass-card {
+        padding: 1.2rem;
+    }
+    .btn {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.95rem;
+    }
+}

@@ -115,3 +115,19 @@
     padding: 2rem;
   }
 }
+
+@media (max-width: 576px) {
+  .about-text {
+    padding: 1.5rem;
+  }
+  .stat-number {
+    font-size: 2rem;
+  }
+  .stats-container {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .highlight-card {
+    padding: 1.5rem;
+  }
+}

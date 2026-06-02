@@ -141,3 +141,23 @@
     display: none; /* Hide on very small screens to avoid clutter */
   }
 }
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-title .text-gradient {
+    white-space: normal;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  
+  .hero-cta .btn {
+    width: 100%;
+  }
+}

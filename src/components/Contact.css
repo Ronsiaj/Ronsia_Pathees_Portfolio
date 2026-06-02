@@ -108,3 +108,13 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .contact-text h3 {
+    font-size: 1.6rem;
+  }
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

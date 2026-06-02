@@ -200,3 +200,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .certificate-card {
+    padding: 1.2rem;
+  }
+  .cert-image-wrapper {
+    height: 150px;
+  }
+}

@@ -147,3 +147,15 @@
     padding: 1.5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .exp-points li {
+    font-size: 0.9rem;
+  }
+  .company-name {
+    font-size: 1rem;
+  }
+  .experience-content {
+    padding: 1.2rem;
+  }
+}

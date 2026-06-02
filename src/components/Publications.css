@@ -76,3 +76,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .publication-card {
+    padding: 1.2rem;
+  }
+  .pub-icon-wrapper {
+    width: 45px;
+    height: 45px;
+  }
+}
