@@ -126,11 +126,11 @@
   .desktop-menu {
     display: none;
   }
-  
+
   .mobile-menu-btn {
     display: block;
   }
-  
+
   .mobile-menu {
     display: flex;
   }
