@@ -24,7 +24,7 @@ const SkillsEducation = () => {
     { name: "Frontend Development", icon: <Layout />, items: ["ReactJS", "HTML", "CSS", "JavaScript", "Reactstrap", "Bootstrap"] },
     { name: "Backend Development", icon: <Terminal />, items: ["Python", "PHP", "Flask"] },
     { name: "Database & Tools", icon: <Database />, items: ["MySQL", "Git", "Postman"] },
-    { name: "Concepts & Design", icon: <Code />, items: ["RESTful APIs"] }
+    { name: "Concepts & Design", icon: <Code />, items: ["Figma", "RESTful APIs"] }
   ];
 
   return (
@@ -62,7 +62,7 @@ const SkillsEducation = () => {
           <div className="skills-column">
             <div className="column-header">
               <Award size={28} className="header-icon" />
-              <h3>Technical Arsenal</h3>
+              <h3>Technical Skills</h3>
             </div>
 
             <div className="skills-grid">

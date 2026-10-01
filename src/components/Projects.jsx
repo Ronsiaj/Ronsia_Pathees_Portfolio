@@ -6,6 +6,22 @@ const Projects = () => {
   const projects = [
 
     {
+      title: "Vivisha Boutique",
+      description: "Mobile-first e-commerce platform for browsing fashion products, managing cart and wishlist items, selecting addresses, and completing orders through an integrated checkout flow.",
+      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      tags: ["ReactJS", "PHP", "MySQL", "Razorpay"],
+      github: "#",
+      live: "#"
+    },
+    {
+      title: "Hospitality & Event Booking Platform",
+      description: "Responsive hospitality and event-booking website for marriage halls, event spaces, lodge rooms, catering, and restaurant services, with customer enquiries, room booking, and role-based admin and staff operations.",
+      image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      tags: ["ReactJS", "PHP", "MySQL", "Razorpay", "JWT"],
+      github: "#",
+      live: "#"
+    },
+    {
       title: "Multi-Panel POS System",
       description: "Unified point-of-sale platform with four role-based panels: LED product rental, vehicle rental with fabrication workflows, print operations with expense and revenue tracking, and an event scheduler with automated admin reminders.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -18,24 +34,6 @@ const Projects = () => {
       description: "Feature-rich B2B social platform with invite-based JWT auth, interest-weighted feeds, real-time chat with read receipts, communities, events with vendor invitations, a mini CRM deal pipeline, and a full admin dashboard with audit logs.",
       image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       tags: ["ReactJS", "PHP", "MySQL", "JWT Auth", "REST API"],
-      github: "#",
-      live: "#"
-    },
-
-    {
-      title: "Property Listing Platform",
-      description: "A real estate marketplace where the admin lists properties for sale, rent, or lease — and buyers can browse, filter by type, location, and price range, and submit enquiries to connect with the owner directly.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      tags: ["ReactJS", "Reactstrap", "PHP", "MySQL"],
-      github: "#",
-      live: "#"
-    },
-
-    {
-      title: "Trust Management System",
-      description: "A full-stack Trust Management System digitizing donation workflows, visitor engagement, and administrative operations. Features role-based access control for admin, donor, and visitor roles with secure session management and real-time donation tracking dashboards.",
-      image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      tags: ["ReactJS", "Reactstrap", "PHP", "MySQL"],
       github: "#",
       live: "#"
     },

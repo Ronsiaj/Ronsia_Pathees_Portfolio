@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import './Hero.css';
 import resume from '../assets/files/Ronsia_Pathees_J_Frontend_Developer.pdf';
+import ronsiaImage from '../assets/images/Ronsia_image.jpeg';
 
 const roles = ["Frontend Developer", "Python Developer", "Web Developer"];
 
@@ -58,7 +59,7 @@ const Hero = () => {
         <div className="hero-image-wrapper delay-300 animate-fade-up">
           <div className="glow-effect"></div>
           <img
-            src="/avatar.jpeg"
+            src={ronsiaImage}
             alt="John Doe"
             className="hero-image"
           />
